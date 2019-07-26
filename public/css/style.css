@@ -1,0 +1,110 @@
+body{
+			display: flex;
+			flex-direction: column; 
+		}
+		 h1{
+		 	text-align:center;
+		 }
+		.buzy{
+			background: #FFA500;
+			pointer-events:none;
+		}
+		.unvailable{
+			background: #A9A9A9;
+			pointer-events:none;
+		}	
+		.main{
+			display: flex;
+			justify-content: center;
+		}
+		.screen{
+			background-image: url(../images/screen.jpg) ;
+			width: 500px;
+			height: 69px;
+		}
+
+		.MainHall{
+			width: 500px;
+			text-align: center;
+		}
+
+		.hall{
+			width: auto;
+			display: inline-block;
+			padding-top : 45px;
+		}
+
+		.wrap{
+			width: 600px;
+		}
+
+		.RawStyle{
+			padding-bottom: 10px;
+			display: flex;
+			justify-content: center;
+		}
+		
+		.RawStyle div{
+			width: 20px;
+			height: 28px;
+		}
+
+		.menu{
+			width: 400px;
+			text-align: center;
+		}
+		.menuRaw{
+			display: table-row;
+		}
+		.menuCell{
+			display: table-cell;
+			padding: 7px 3px;
+			width: 100px;
+		}
+
+		.divTableHead {
+		  padding: 7px 3px;
+		  text-align: center;
+		  font-weight: bold;
+		}
+
+		.divTableBody{
+		  padding: 7px 3px;
+		  text-align: center;
+		}
+		
+		.footer button{
+			width: 100%;
+			height: 50px;
+			border-radius: 20px;
+			background: #90EE90;
+		}
+
+		.Seats{  
+			margin-right: 5px;
+			border-radius: 4px; 
+		}
+		
+		.Seats.econom{
+			border: solid 1px #D2B48C;
+		}
+		
+		.Seats.base{
+			border: solid 1px #00BFFF;
+		}
+
+		.Seats.vip{
+			border: solid 1px #00008B;
+		}
+
+		.Seats.available:hover{
+			background: #FFA500;
+		}
+		
+		.indentRight{
+			margin-right: 15px; 
+		}
+		
+		.menuTable p{
+			color: #A9A9A9;
+		}
